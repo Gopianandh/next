@@ -11,6 +11,12 @@ public class Gitsecon {
 		WebDriver driver = new ChromeDriver();
 	     driver.get("https://www.youtube.com/");
 	     driver.findElement(By.xpath("(//a[@id='video-title-link'])[2]")).click();
+	     
+	     for (int i=0; i<10;i++) {
+	    	 System.out.println(i);
+	     }
+	     
+	     
 	}
 
 }
